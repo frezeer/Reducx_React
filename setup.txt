@@ -15,9 +15,9 @@ yarn se puede instalar con
 
 yarn add redux react-redux redux-thunk redux-devtools
 
-git init	                   		    #comenzar a mmonitorear con git
+git init	                   		      #comenzar a mmonitorear con git
 
-git config --global user.name "frezeer"	    #establece el nombre del usuario 	
+git config --global user.name "frezeer"	              #establece el nombre del usuario 	
 
 git config --global user.email frezee13@hotmail.com   #establece la cuenta de correo 
 
@@ -35,10 +35,22 @@ git add -A	                   		    #agregar todos los  archivos nuevos
 
 git log 		           		    #muestra los comiit que se ha hecho
 
-git status                          # muestra el status del proyecto en github
+git status                          	            # muestra el status del proyecto en github
 
 git commit -m "Proyecto virgen"    		    #agrega un comiit hacer esto cuando agregamos archivos o modificaciones de codigo o Subir el Repositorio
 
 git add "Nuevo documento de texto.txt"              #agrega un archivo al repositorio
 
-git push -u origin master                   #sube todo el proyecto a github
+git push -u origin master                           #sube todo el proyecto a github
+
+
+git branch                                          #muestra las ramas que existen o crear una rama
+
+git chekout                                         # nos permite movernos entre ramas  o commits 
+
+git branch part1                                    #crea una rama llamada part1
+
+git checkout part1                                  #nos movemos a la rama llamada part1
+
+
+

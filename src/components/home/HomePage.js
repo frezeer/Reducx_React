@@ -2,14 +2,19 @@ import React from 'react'
 import Card from '../card/Card'
 import styles from './home.module.css'
 import { connect } from 'react-redux'
+import { removeCharacterActions } from '../../redux/charsDucks'
 
-function Home({ chars }) {
+
+function Home({ chars, removeCharacterActions }) {
     
     function renderCharacter() {
         let char = chars[6]
         return (
-            <Card {...char} />
+            <Card leftClick={nextCharacter} {...char} />
         )
+    }
+    function nextCharacter(){
+        removeCharacterActions()
     }
 
     return (
@@ -29,4 +34,4 @@ function mapState(state){
     }
 }
 
-export default connect(mapState)(Home)
+export default connect(mapState, {removeCharacterActions})(Home)
