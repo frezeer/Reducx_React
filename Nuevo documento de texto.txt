@@ -15,11 +15,6 @@ yarn se puede instalar con
 
 yarn add redux react-redux redux-thunk redux-devtools
 
-
-
-
-
-
 git init	                   #comenzar a mmonitorear con git
 
 git remote -v  		           #consultar si el proyecto esta vinculado con un github
