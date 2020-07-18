@@ -15,22 +15,28 @@ yarn se puede instalar con
 
 yarn add redux react-redux redux-thunk redux-devtools
 
-git init	                   #comenzar a mmonitorear con git
+git init	                   		    #comenzar a mmonitorear con git
 
-git remote -v  		           #consultar si el proyecto esta vinculado con un github
+git config --global user.name "frezeer"	    #establece el nombre del usuario 	
 
-git remote remove origin	   #en caso de estar vinculado desvincular
+git config --global user.email frezee13@hotmail.com   #establece la cuenta de correo 
+
+git config --global color.ui true 		    #habilita los colores	
+
+git config --global --list			    #muestra la configuracion global
+
+git remote -v  		          		    #consultar si el proyecto esta vinculado con un github
+
+git remote remove origin	   		    #en caso de estar vinculado desvincular
 
 git remote add origin https://github.com/frezeer/Reducx_React.git #vincular repositorio a Github primero crear el proyecto y luego vincualrlo
 
-git add -A	                   #agregar archivos nuevos 
+git add -A	                   		    #agregar todos los  archivos nuevos 
 
-git log 		           #muestra los comiit que se ha hecho
+git log 		           		    #muestra los comiit que se ha hecho
 
-git commit -m "Proyecto virgen"    #agrga un comiit hacer esto cuando agregamos archivos o modificaciones de codigo o Subir el Repositorio
-
-
+git commit -m "Proyecto virgen"    		    #agrega un comiit hacer esto cuando agregamos archivos o modificaciones de codigo o Subir el Repositorio
 
     
 
-
+git push -u origin master
