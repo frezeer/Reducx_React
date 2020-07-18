@@ -1,8 +1,41 @@
 git clone https://github.com/HectorBlisS/Curso-React-Redux-GraphQL.git
 
-
 #instala dependencias 
 yarn 
 
 #arranca el server
 yarn start
+
+yarn se puede instalar con
+ 
+#npm -i -g yarn
+
+#utilerias de redux a instalar
+
+
+yarn add redux react-redux redux-thunk redux-devtools
+
+
+
+
+
+
+git init	                   #comenzar a mmonitorear con git
+
+git remote -v  		           #consultar si el proyecto esta vinculado con un github
+
+git remote remove origin	   #en caso de estar vinculado desvincular
+
+git remote add origin https://github.com/frezeer/Reducx_React.git #vincular repositorio a Github primero crear el proyecto y luego vincualrlo
+
+git add -A	                   #agregar archivos nuevos 
+
+git log 		           #muestra los comiit que se ha hecho
+
+git commit -m "Proyecto virgen"    #agrga un comiit hacer esto cuando agregamos archivos o modificaciones de codigo o Subir el Repositorio
+
+
+
+    
+
+
