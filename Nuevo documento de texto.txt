@@ -35,8 +35,12 @@ git add -A	                   		    #agregar todos los  archivos nuevos
 
 git log 		           		    #muestra los comiit que se ha hecho
 
+git status                          #
+
 git commit -m "Proyecto virgen"    		    #agrega un comiit hacer esto cuando agregamos archivos o modificaciones de codigo o Subir el Repositorio
 
 git add "Nuevo documento de texto.txt"              #agrega un archivo al repositorio
+
+
     
 git push -u origin master
