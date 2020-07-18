@@ -1,0 +1,8 @@
+git clone https://github.com/HectorBlisS/Curso-React-Redux-GraphQL.git
+
+
+#instala dependencias 
+yarn 
+
+#arranca el server
+yarn start
